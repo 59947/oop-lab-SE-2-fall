@@ -1,0 +1,134 @@
+
+
+*********************task 1 **************************
+
+
+
+public class Task1 {
+    public static void main(String[] args) {
+        
+        String[] fruits = {"Apple", "Banana", "Cherry", "Date", "Fig"};
+        
+        
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
+        }
+    }
+}
+ 
+
+
+
+**********************task 2 ****************************
+
+
+
+
+
+import java.util.Scanner;
+
+
+public class Task2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        
+        
+        if (number % 2 == 0) {
+            System.out.println(number + " is even.");
+        } else {
+            System.out.println(number + " is odd.");
+        }
+
+
+
+ 
+
+        
+     
+    **********************task 3**************************
+
+
+
+
+
+
+
+public class Task3 {
+
+
+    public static void main(String[] args) {
+        int num = 2;
+        
+        
+        while (num <= 20) {
+            System.out.println(num);
+            num += 2;
+        }
+    }
+ 
+}
+
+
+
+
+
+
+
+*************************  task 4  **********************************
+
+
+
+
+
+public class Task4 {
+    public static void main(String[] args) {
+       
+        int rows = 4;
+        int columns = 6;
+        
+        
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= columns; j++) {
+                System.out.print("*");
+            }
+            System.out.println(); 
+        }
+    }
+}
+
+
+
+
+ 
+
+
+
+
+*************************** task 5 ***************************
+
+
+
+
+
+
+
+
+public class Task5 {
+    public static void main(String[] args) {
+    
+        int number = 5; 
+        int factorial = 1;
+        int i = number;
+        
+        while (i > 0) {
+            factorial *= i;
+            i--;
+        }
+        System.out.println("Factorial of " + number + " is: " + factorial);
+    }
+}
+ 
