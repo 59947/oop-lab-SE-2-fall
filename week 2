@@ -1,0 +1,120 @@
+************* Task 1  **************
+
+
+                       #include<iostream>
+                       using namespace std;
+                         class employee
+                        {
+	                    public:
+	                       string name;
+	                       string jobtitle;
+	                       double salary;
+	                      void updateSalary(double newSalary)
+	                      {
+	
+	                           salary= newSalary;
+                                 }
+	
+                                     };
+
+                                int main()
+                            {
+	                               employee emp1;
+	                               emp1.name="Maryam";
+	                               emp1.jobtitle="Software Engineering";
+	                               emp1.salary=5000;
+	                              emp1.updateSalary(10000);
+	                              cout<<"Employee name"<<emp1.name;
+	                              cout<<"jobtitle:"<<emp1.jobtitle;
+	                              cout<<"salary:"<<emp1.salary;
+
+	                             return 0;
+	                                                    }
+
+
+
+
+	                                                           
+
+
+   *************Task 2 **************
+
+
+
+
+
+                                                             #include<iostream>
+                                                             using namespace std;
+
+                                                             class car {
+                                                            public:
+                                                           string name;
+                                                           double topSpeed;
+                                                           int modelYear;
+
+                                                         void displayInfo() {
+                                                         cout << "Car Info:" << endl;
+                                                         cout << "Name: " << name << endl;
+                                                          cout << "Top Speed: " << topSpeed << " km/h" << endl;
+                                                         cout << "Model Year: " << modelYear << endl;
+                                                          }
+                                                           };
+
+                                                         int main() {
+                                                                       car c;
+                                                                       c.name = "Corolla";
+                                                                        c.topSpeed = 120;
+                                                                       c.modelYear = 2023;
+                                                                        c.displayInfo();
+                                                                           return 0;
+                                                                 }
+
+
+
+                                                                                
+
+
+     *************Task 3 ***************
+
+
+
+
+                                     
+                                  #include<iostream>
+                                                                using namespace std;
+
+                                                                   class laptop {
+                                                                  public:
+                                                               string brand;
+                                                              string model;
+                                                               string serial;
+                                                             string color;
+
+                                                           void display(){
+                                                           cout<<"Brand:"<<brand<<endl;
+                                                            cout<<"Model:"<<model<<endl;
+                                                           cout<<"Serial:"<<serial<<endl;
+                                                           cout<<"Color:"<<color<<endl;
+                                                                  }
+                                                                   };
+
+                                                            int main() {
+                                                           laptop laptops[2];
+
+                                                              laptops[0].brand="Dell";
+                                                               laptops[0].model = "Inspiron";
+                                                             laptops[0].serial = "123456";
+                                                                laptops[0].color = "Silver";
+
+                                                          laptops[1].brand = "HP";
+                                                           laptops[1].model = "Envy";
+                                                           laptops[1].serial = "789012";
+                                                           laptops[1].color = "Black";
+
+                                                           for (int i = 0; i < 2; i++) {
+                                                          laptops[i].display();
+                                                            cout << endl;
+                                                                }
+                                                     return 0;
+
+                                                           }
